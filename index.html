@@ -10,16 +10,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="styles/header_CSS.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/hero_CSS.css">
 
     <title>HTML</title></head>
 
 <style>
 
-    #hero{
-        margin-top: 50px;
-        width: 100vw;
-        background: lightskyblue;
+    body{
+        background: #191919;
     }
+
+
 </style>
 
 <body>
@@ -28,39 +30,43 @@
 <header>
     <h3>D</h3>
     <!--  navigation section-->
-    <div id="nav">
-        <a href="">home</a>
-        <a href="">skills</a>
-        <a href="">project</a>
-        <a href="">contact</a>
-    </div>
+    <nav class="nav">
+        <ul>
+            <li><a href="">Home+</a></li>
+            <li> <a href="">Skill+</a></li>
+            <li><a href="">Project+</a></li>
+            <li> <a href="">Contact+</a></li>
+        </ul>
+    </nav>
 
     <div>
         <img src="">
-        <button>say HI</button>
+        <button class="button"> Say Hi</button>
     </div>
-
 
 </header>
 
 <!--hero section-->
 <main id="hero">
     <!--welcome section-->
-    <section>
-        <h1>Welcome</h1>
-        <h2>im Buddhi Dilshan</h2>
-        <h3>front end developer</h3>
-    </section>
+    <section id="welcome" >
+        <div>
+            <h1>Welcome</h1>
+            <h2>im <span>Buddhi Dilshan</span></h2>
+            <h3>front end developer</h3>
+        </div>
 
-    <img src="assets/images/Picsart_24-07-22_19-55-53-213.png" alt="" width="250">
+    </section>
+    <section>
+        <img src="assets/images/Picsart_24-07-22_19-55-53-213.png" alt="" width="500">
+        <div>
+            <a href="">email</a>
+            <a href="">linkedin</a>
+            <a href="">github</a>
+        </div>
+    </section>
     <!--contact section-->
-    <section>
-        <a href="">email</a>
-        <a href="">linkedin</a>
-        <a href="">github</a>
-    </section>
-
-</main>
+   </main>
 
 <!--info section-->
 <main>
@@ -254,10 +260,17 @@
 
 <footer>
     <h3>@buddhi dilshan</h3>
-    <h2>home+</h2>
-    <h2>project+</h2>
-    <h2>skills</h2>
-    <h2>contact+</h2>
+
+    <div class="nav" id="footer">
+        <ul>
+            <li><a href="">Home+</a></li>
+            <li> <a href="">Skill+</a></li>
+            <li><a href="">Project+</a></li>
+            <li> <a href="">Contact+</a></li>
+        </ul>
+    </div>
+
+
 </footer>
 
 </body>
