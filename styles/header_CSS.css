@@ -57,11 +57,12 @@ header>div{
 }
 
 .button{
+    width: 90px;
+    height: 30px;
     font-weight: bold;
     font-style: italic;
     color: azure;
     background: #191919;
-    padding:  5px 25px;
     border-radius: 50px;
 
 }
