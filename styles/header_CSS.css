@@ -35,12 +35,19 @@ header>nav>ul>li {
 
     padding: 0px 20px;
     display: inline;
+
 }
+
 header>nav>ul>li>a {
     font-weight: lighter;
     font-size: 20px;
     color: azure;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+#navlinks a:hover{
+    color: aqua;
 }
 
 
@@ -66,3 +73,34 @@ header>div{
     border-radius: 50px;
 
 }
+
+
+@media all and (max-width: 768px) {
+
+    header>h3{
+        margin-top: 7px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    #button>button{
+        width: 90px;
+        height: 30px; 
+        font-size: 15px;
+    }
+    header>nav>ul>li {
+
+        padding: 0px 10px;
+        display: inline;
+
+    }
+
+    header>nav>ul>li>a {
+        font-weight: lighter;
+        font-size: 18px;
+
+    }
+
+
+
+}
+

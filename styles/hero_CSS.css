@@ -49,6 +49,7 @@
 }
 
 #welcome{
+    z-index: 99;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,19 +65,79 @@ flex-direction: column;
 }
 
 .social-icons li {
-    margin: 15px 0;
+    width: 50px;
+    margin: 10px 0;
 
 }
 
 .social-icons a {
     color: #fff;
-    font-size: 1.5em;
-    transition: color 0.3s;
+    font-size: 2em;
+    transition: 1s;
 }
 
 .social-icons a:hover {
-    color: #FFD700;
+    font-size: 2.5em;
+    color: aqua;
 }
+
+.social-icons li:nth-child(1){
+    color: aqua;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+@media all and (max-width: 768px) {
+
+    #hero{
+        overflow: hidden;
+    }
+    #hero>section:first-child>div>h1{
+        margin-left: 147px;
+        font-size: 80px;
+        margin-top: -133px;
+    }
+
+    #hero>section:first-child>div>h2{
+        font-size: 40px;
+        margin-top: -55px;
+        margin-left: 95px;
+
+    }
+
+    #hero>section:first-child>div>h3{
+        margin-top: 115px;
+        margin-left: 56px;
+        font-size: 40px;
+    }
+
+    #hero {
+
+        grid-template-columns: 3fr 1fr;
+    }
+    #hero>section:nth-child(2)>img {
+        width: 400px;
+        height: 546px;
+        margin-top: 50px;
+        margin-left: -55px;
+    }
+    .social-icons {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: -85px;
+        margin-left: 20px;
+    }
+
+    .social-icons li:nth-child(1){
+        color: aqua;
+        font-weight: bold;
+        font-size: 100px;
+        margin-top: -43px;
+    }
+
+}
+
 
 
 /*#welcome>div>h3{

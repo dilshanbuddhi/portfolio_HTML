@@ -40,7 +40,16 @@ footer>div>ul>li>a {
 }
 
 
+@media all and (max-width: 768px) {
+    footer>div>ul>li>a {
+        font-size: 18px;
+    }
 
+    footer>div>ul>li {
+        padding: 0px 10px;
+        display: inline;
+    }
+}
 
 
 
