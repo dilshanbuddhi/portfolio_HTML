@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/hero_CSS.css">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/gallary.css">
+    <link rel="stylesheet" href="styles/skill.css">
 
     <title>HTML</title></head>
 
@@ -22,6 +24,7 @@
     body{
         color: white;
         background: #191919;
+        overflow-x: hidden;
     }
 
 
@@ -98,49 +101,60 @@
 
     </section>
 
-    <p>Hi, I'm Buddhi Dilshan currently studying at the IJSE Software Engineering Institute. I'm passionate about technology and dedicated to mastering the skills needed to become a proficient software engineer. Throughout my studies, I have focused on learning Java and MySQL, which have equipped me with a strong foundation in programming and database management.</p>
+    <p class="shadow">Hi, I'm <span>Buddhi Dilshan </span> currently studying at the IJSE Software Engineering Institute. I'm passionate about technology and dedicated to mastering the skills needed to become a proficient software engineer. Throughout my studies, I have focused on learning Java and MySQL, which have equipped me with a strong foundation in programming and database management.</p>
 
 </main>
 
 <!--gallery section-->
-<main>
+<main id="gallery">
 
-    <h2>Gallery</h2>
+    <h2 class="shadow">Gallery</h2>
     <section>
-        <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.28_495a441c.jpg" alt="" width="250">
-        <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.28_699ef327.jpg" alt="" width="250">
-        <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.29_c46f791f.jpg" alt="" width="250">
-        <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.30_b52c384d.jpg" alt="" width="250">
-        <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.29_4bcafdbf.jpg" alt="" width="250">
+        <div>
+            <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.28_495a441c.jpg" alt="" width="250">
+            <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.28_699ef327.jpg" alt="" width="250">
+            <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.29_c46f791f.jpg" alt="" width="250">
+            <img src="assets/images/WhatsApp Image 2024-07-22 at 20.13.30_b52c384d.jpg" alt="" width="250">
+        </div>
     </section>
 </main>
 
 <!--skill section-->
-<main>
+<main id="skill">
     <section>
-        <h2>Skills</h2>
-        <h4>what i can do!!</h4>
-    </section>
-
-    <section>
-        <h3>part coder</h3>
         <div>
-            <h4>Java</h4>
-            <h4>HTML</h4>
-            <h4>Javascript</h4>
-            <h4>css</h4>
-            <h4>front end developer</h4>
+            <h2>Skills</h2>
+            <h4>what i can do!!</h4>
         </div>
 
-        <img src="assets/images/piechart.png" alt="" width="250">
+    </section>
 
-
-        <h3>part designer</h3>
+    <section id="skil_list">
+        <div>
+        <h3>part coder</h3>
+            <div> <h4>Java</h4>
+                <h4>HTML</h4>
+                <h4>Javascript</h4>
+                <h4>css</h4>
+                <h4>front end developer</h4>
+            </div>
+        </div>
 
         <div>
-            <h4>Ui design</h4>
-            <h4>UX design</h4>
-            <h4>interact design</h4>
+            <img src="assets/images/piechart.png" alt="" width="250">
+        </div>
+
+
+        <div>
+            <h3>part designer</h3>
+            <div>
+                <ul id="img_list">
+                    <li><img src="assets/images/java.png" alt="" width="50"> java </li>
+                </ul>
+                <h4>Ui design</h4>
+                <h4>UX design</h4>
+                <h4>interact design</h4>
+            </div>
         </div>
     </section>
 

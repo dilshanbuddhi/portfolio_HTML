@@ -1,0 +1,53 @@
+#skill{
+
+}
+
+#skill>section:first-child>div{
+   margin-top: 100px;
+  text-align: center;
+}
+
+#skill>section:first-child>div>h2{
+   color: aqua;
+   font-size: 100px;
+}
+#skill>section:first-child>div>h4{
+   color: #696969;
+   font-size: 30px;
+   margin-top: -100px;
+}
+
+#skil_list{
+   width: 1000px;
+   height: 500px;
+   margin-right: auto;
+   margin-left: auto;
+   border: 56px solid crimson;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+#skil_list>div>h3{
+   color: aqua;
+   font-size: 50px;
+   font-weight: lighter;
+}
+#skil_list>div:nth-child(3)>ul{
+   list-style-image: none;
+}
+
+#img_list{
+
+   font-weight: bolder;
+   font-size: 30px;
+   list-style-type: none;
+   text-align: center;
+
+}
+
+#img_list li{
+   display: flex;         /* Align items horizontally */
+   align-items: center;   /* Vertically center-align image and text */
+}
+
+
+
