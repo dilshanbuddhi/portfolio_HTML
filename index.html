@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/gallary.css">
     <link rel="stylesheet" href="styles/skill.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <title>HTML</title></head>
 
@@ -58,9 +63,9 @@
     <!--welcome section-->
     <section id="welcome" >
         <div>
-            <h1>Welcome</h1>
-            <h2>I'm <span>Buddhi Dilshan</span></h2>
-            <h3>Front end developer</h3>
+            <h1 class="animate__flipOutY">Welcome</h1>
+            <h2 class="animate__flipOutY">I'm <span>Buddhi Dilshan</span></h2>
+            <h3 class="animate__flipOutY">Front end developer</h3>
         </div>
 
     </section>
@@ -92,7 +97,7 @@
 <main id="about">
     <!--  button section-->
     <section id="buttonsec">
-        <div>
+        <div data-aos="zoom-in-up">
             <h1>Who I Am</h1>
 
         <button>more info click here</button>
@@ -101,7 +106,7 @@
 
     </section>
 
-    <p class="shadow">Hi, I'm <span>Buddhi Dilshan </span> currently studying at the IJSE Software Engineering Institute. I'm passionate about technology and dedicated to mastering the skills needed to become a proficient software engineer. Throughout my studies, I have focused on learning Java and MySQL, which have equipped me with a strong foundation in programming and database management.</p>
+    <p class="shadow" data-aos="zoom-in-up">>Hi, I'm <span>Buddhi Dilshan </span> currently studying at the IJSE Software Engineering Institute. I'm passionate about technology and dedicated to mastering the skills needed to become a proficient software engineer. Throughout my studies, I have focused on learning Java and MySQL, which have equipped me with a strong foundation in programming and database management.</p>
 
 </main>
 
@@ -132,28 +137,31 @@
     <section id="skil_list">
         <div>
         <h3>part coder</h3>
-            <div> <h4>Java</h4>
-                <h4>HTML</h4>
-                <h4>Javascript</h4>
-                <h4>css</h4>
-                <h4>front end developer</h4>
+            <div class="shadow">
+                <ul id="img_list2" >
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">java </li>
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">HTML</li>
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">JavaScript</li>
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">CSS</li>
+                    <li>Front end developer</li>
+                </ul>
             </div>
         </div>
 
         <div>
-            <img src="assets/images/piechart.png" alt="" width="250">
+            <img src="assets/images/piechart.png" alt="" width="350">
         </div>
 
 
         <div>
             <h3>part designer</h3>
-            <div>
+            <div class="shadow">
                 <ul id="img_list">
-                    <li><img src="assets/images/java.png" alt="" width="50"> java </li>
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">UI design </li>
+                    <li><img class="imgpadding" src="assets/images/java.png" alt="" width="40">Ux design </li>
+                    <li>interact design</li>
                 </ul>
-                <h4>Ui design</h4>
-                <h4>UX design</h4>
-                <h4>interact design</h4>
+
             </div>
         </div>
     </section>
@@ -308,6 +316,11 @@
 
 
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

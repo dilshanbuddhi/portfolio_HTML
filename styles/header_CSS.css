@@ -106,3 +106,18 @@ header>div{
 
 }
 
+@media all and (max-width: 600px) {
+    header>h3{
+        font-size: 35px;
+    }
+
+    .nav{
+        visibility: hidden;
+    }
+    #button>button{
+       margin-right: 30px;
+    }
+
+}
+
+
