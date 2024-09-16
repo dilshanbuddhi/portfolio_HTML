@@ -13,7 +13,6 @@
 
 #hero>section:first-child>div>h1 {
     margin-top: -50px;
-    margin-left: -300px;
     grid-column: 1/1;
     font-weight: bold;
     font-style: italic;
@@ -35,7 +34,6 @@
 }
 
 #hero>section:first-child>div>h3{
-    margin-left: -30px;
     font-weight: bold;
     font-size: 80px;
     color: lightblue;
@@ -142,6 +140,7 @@ flex-direction: column;
 
 @media all and (max-width: 600px) {
     #hero {
+
         width: 600px;
         margin-top: 100px;
     display: flex;
@@ -153,20 +152,28 @@ flex-direction: column;
         font-size: 20px;
     }
     #hero>section:nth-child(2)>img {
-        margin-top: -170px;
+        /*
+        padding: 40px;
+        */
+        margin-left: 180px;
+        margin-top: -500px;
     }
     #hero>section:first-child>div>h1{
-        margin-left: -130px;
+        margin-left: -170px;
 
     }
     #hero>section:first-child>div>h2{
         margin-left: 0px;
     }
     #hero>section:first-child>div>h3{
-        margin-top: 100px;
-        font-size: 60px;
-        padding: 100px;
-        margin-left: 0px;
+        margin-top: -79px;
+        font-size: 57px;
+        padding: 180px;
+        margin-left: -240px;
+    }
+
+    .social-icons {
+        margin-top: -140px;
     }
 }
 
