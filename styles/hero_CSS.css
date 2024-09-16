@@ -121,6 +121,7 @@ flex-direction: column;
         margin-top: 50px;
         margin-left: -55px;
     }
+
     .social-icons {
         list-style: none;
         display: flex;
@@ -135,19 +136,18 @@ flex-direction: column;
         font-size: 100px;
         margin-top: -43px;
     }
-
 }
 
 @media all and (max-width: 600px) {
     #hero {
-
-        width: 600px;
+        width: 100%;
         margin-top: 100px;
     display: flex;
         flex-direction: column;
     }
 
     #welcome>div {
+        justify-content: space-between;
         margin-top: 121px;
         font-size: 20px;
     }
@@ -155,26 +155,34 @@ flex-direction: column;
         /*
         padding: 40px;
         */
-        margin-left: 180px;
-        margin-top: -500px;
+        margin-left: 130px;
+        margin-top: -400px;
     }
     #hero>section:first-child>div>h1{
+        font-size: 48px;
         margin-left: -170px;
 
     }
     #hero>section:first-child>div>h2{
-        margin-left: 0px;
+        font-size: 40px;
+        padding: 20px;
+        margin-left: -25px;
     }
     #hero>section:first-child>div>h3{
-        margin-top: -79px;
-        font-size: 57px;
+        margin-top: -150px;
+        font-size: 48px;
         padding: 180px;
-        margin-left: -240px;
+        margin-left: -200px;
     }
 
     .social-icons {
-        margin-top: -140px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: -340px;
     }
+
+
 }
 
 
