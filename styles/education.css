@@ -1,0 +1,32 @@
+#education>h2{
+    text-align: center;
+    color: aqua;
+    font-size: 100px;
+}
+#education>section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.vertical {
+    border-left: 5px solid white;
+    height: 700px;
+
+}
+
+.circle{
+    margin-left: -10px;
+    width: 15px;
+    height: 15px;
+    background: aqua;
+    border-radius: 100%;
+}
+
+#education>section>div>img{
+    width: 50px;
+}
+
+#ijse img{
+    width: 50px;
+    height: 20px;
+}
