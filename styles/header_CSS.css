@@ -87,7 +87,7 @@ header>div{
     }
     #button>button{
         width: 90px;
-        height: 30px; 
+        height: 30px;
         font-size: 15px;
     }
     header>nav>ul>li {
@@ -105,7 +105,9 @@ header>div{
 
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 435px){
+
+
     header>h3{
         font-size: 35px;
     }
@@ -114,7 +116,7 @@ header>div{
         visibility: hidden;
     }
     #button>button{
-       margin-right: 15px;
+       padding-right: 15px;
     }
 
 }
