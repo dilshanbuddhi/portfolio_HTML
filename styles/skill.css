@@ -1,8 +1,8 @@
 #skill{
-
 }
 
 #skill>section:first-child>div{
+
    margin-top: 100px;
   text-align: center;
 }
@@ -24,6 +24,7 @@
    margin-left: auto;
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-evenly;
 }
 #skil_list>div>h3{

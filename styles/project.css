@@ -1,0 +1,56 @@
+#projectlist{
+    padding: 30px;
+}
+#project>div>h2{
+    text-align: center;
+    color: aqua;
+    font-size: 100px;
+}
+#project>div>h3{
+    text-align: center;
+    color: #696969;
+    font-size: 35px;
+    margin-top: -75px;
+}
+#projectlist>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#projectlist>div>div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+    border-radius: 30px;
+    max-width: 210px;
+    min-width: 180px;
+    min-height: 300px;
+    max-height: 400px;
+
+    margin: 20px;
+}
+#projectlist>div>div img{
+    margin-bottom: 10px;
+    align-self: center;
+}
+#projectlist div div:nth-child(2){
+    padding-right: 20px;
+}
+
+#projectlist div ul li{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#projectlist div div a i {
+    padding: 20px;
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+}
+
+
