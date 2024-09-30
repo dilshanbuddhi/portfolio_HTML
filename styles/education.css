@@ -57,8 +57,8 @@
 }
 
 #first_row {
-    padding-right: 26px;
-    padding-left: 26px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin-top: 140px;
 }
 #first_row div:nth-child(2){
@@ -72,3 +72,39 @@
 #second_row div:nth-child(2){
     margin-top: 270px;
 }
+
+@media all and (max-width: 768px) {
+    #ss{
+        visibility: hidden;
+        display: none;
+    }
+    #education section{
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: -100px;
+    }
+ .skillshadow{
+     margin-bottom: 60px;
+ }
+
+    #first_row {
+        flex-basis: 20px;
+
+    }
+    #first_row div:nth-child(2){
+        margin-top: 0px;
+    }
+    #second_row{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #second_row div:nth-child(2){
+        margin-top: 0px;
+    }
+
+}
+

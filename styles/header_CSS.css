@@ -114,6 +114,7 @@ header>div{
 
     .nav{
         visibility: hidden;
+        display: none;
     }
     #button>button{
        padding-right: 15px;
