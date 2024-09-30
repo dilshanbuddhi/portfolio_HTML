@@ -94,6 +94,28 @@
       margin-left: 0px;
    }
 }
+@media all and (max-width: 435px) {
+   #skill>section:first-child>div>h2{
+      font-size: 70px;
+   }
+   #skill>section:first-child>div>h4{
+      font-size: 20px;
+      margin-top: -70px;
+   }
+   #skil_list>div>h3{
+      padding: 0;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 40px;
+   }
+   #piechart img{
+      margin-bottom: 48px;
+      width: 300px;
+      margin-left: -49px;
+   }
+
+   }
+
 
 
 
