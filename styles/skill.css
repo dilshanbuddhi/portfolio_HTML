@@ -24,6 +24,7 @@
    margin-left: auto;
    display: flex;
    flex-direction: row;
+   align-items: center;
    flex-wrap: wrap;
    justify-content: space-evenly;
 }
@@ -63,7 +64,6 @@
 }
 
 #skil_list>div:nth-child(2){
-   margin-left: 35px;
    align-self: center;
 }
 
@@ -84,17 +84,19 @@
 
 #piechart img{
    margin-top: 160px;
-   margin-left: 20px;
 }
 
 @media all and (max-width: 768px) {
    #piechart img{
+      width: 300px;
       margin-top: 100px;
       margin-bottom: 20px;
-      margin-left: 0px;
    }
 }
 @media all and (max-width: 435px) {
+   #skil_list{
+      justify-content: center;
+   }
    #skill>section:first-child>div>h2{
       font-size: 70px;
    }
@@ -109,9 +111,9 @@
       font-size: 40px;
    }
    #piechart img{
+      align-self: center;
       margin-bottom: 48px;
-      width: 300px;
-      margin-left: -49px;
+      width: 200px;
    }
 
    }
