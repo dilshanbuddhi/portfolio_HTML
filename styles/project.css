@@ -17,7 +17,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 #projectlist>div>div{
     flex-grow: 1;
@@ -30,7 +29,6 @@
     min-width: 180px;
     min-height: 300px;
     max-height: 400px;
-
     margin: 20px;
 }
 #projectlist>div>div img{
