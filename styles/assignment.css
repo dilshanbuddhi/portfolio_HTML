@@ -25,6 +25,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 255, 255, 0.1);
     margin-bottom: 10px;
+
 }
 .btn:hover{
     background-color: #887877;
@@ -47,6 +48,9 @@
     align-items: center;
 }*/
 
+#preview{
+    margin-top: 20px;
+}
 .ka{
     display: flex;
     /*
@@ -58,7 +62,7 @@
     max-width: 210px;
     min-width: 180px;
     min-height: 300px;
-    max-height: 400px;
+    max-height: 600px;
     margin: 20px;
 }
 
@@ -74,6 +78,12 @@
      border-radius: 20px;
      padding: 10px;
  }
+
+ #asgList div a i {
+ padding: 15px;
+     margin-left: 150px;
+     color: white;
+     font-size: 30px;}
 
 #assignemt_List div {
     display: flex;
