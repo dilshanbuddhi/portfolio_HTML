@@ -12,12 +12,13 @@
     font-size: 35px;
     margin-top: -75px;
 }
-#projectlist>div{
+#projectlist>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 #projectlist>div>div{
     flex-grow: 1;
     display: flex;

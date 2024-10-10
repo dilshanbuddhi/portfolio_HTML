@@ -1,0 +1,30 @@
+#assignemt_List h1{
+    text-align: center;
+    color: aqua;
+    font-size: 100px;
+}
+
+#assignemt_List div div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+    border-radius: 30px;
+    max-width: 210px;
+    min-width: 180px;
+    min-height: 300px;
+    max-height: 400px;
+    margin: 50px
+}
+#assignemt_List div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media all and (max-width: 435px) {
+    #assignemt_List h1{
+        font-size: 30px;
+    }
+}
+
