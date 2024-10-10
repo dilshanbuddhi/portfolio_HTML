@@ -51,6 +51,14 @@ footer>div>ul>li>a {
         display: inline;
     }
 }
+@media all and (max-width: 768px) {
+    footer div ul{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
 
 
 
