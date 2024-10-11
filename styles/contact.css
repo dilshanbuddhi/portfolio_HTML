@@ -5,6 +5,14 @@
     flex-direction:row;
     justify-content: space-evenly;*/
 }
+
+#contactTxt{
+    padding-left: 140px;
+}
+
+#socialList{
+    margin-left: 140px;
+}
 #contactSt div div{
     display: flex;
     flex-direction: column;
@@ -18,15 +26,19 @@
 
 #contactTxt h1{
     z-index: 10;
-    margin-top: 200px;
+    margin-top: 170px;
+    /*
     align-self: center;
+    */
     color: aqua;
     font-size: 100px;
 }
 
 
 #contactTxt h2{
-    margin-bottom: 20px;
+    z-index: 2;
+    margin-top: -30px;
+    margin-bottom: 100px;
     font-size: 36px;
     text-align: center;
     box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
@@ -34,18 +46,97 @@
     border-radius: 30px;
     max-width: 400px;
     min-width: 180px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
+
+
+
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 5px 0px rgb(1, 255, 255);
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.social-link i {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.social-link.instagram i {
+    color: #E4405F; /* Instagram color */
+}
+
+.social-link.facebook i {
+    color: #1877F2; /* Facebook color */
+}
+
+.social-link.twitter i {
+    color: #1DA1F2; /* Twitter color */
+}
+
+.social-link.linkedin i {
+    color: #0A66C2; /* LinkedIn color */
+}
+
+/*.social-link:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}*/
+
+#socialList ul {
+    padding: 0;
+}
+#socialList ul li:nth-child(1)  {
+    margin-right: 50px;
+}
+#socialList ul li  {
+    display: inline;
+}
+
+
+
+
 @media all and (max-width: 768px) {
     #img img {
-        width: 300px;
+        width: 250px;
     }
 
     #contactTxt h1{
+        margin-top: 57px;
         z-index: 10;
-        font-size: 70px;
+        font-size: 54px;
     }
+    #contactTxt{
+        padding-left: 50px;
+    }
+
+    #socialList{
+        margin-left: 50px;
+    }
+    #contactTxt h2 {
+        font-size: 21px;
+        max-width: 275px;
+    }
+
+    .social-container {
+      
+        width: 283px;
+        padding: 8px;
+        margin-top: -50px;
+    }
+
+
 }
 
 
