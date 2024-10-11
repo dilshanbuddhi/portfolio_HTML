@@ -49,10 +49,11 @@
 }*/
 
 #preview{
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .ka{
     display: flex;
+    text-align: center;
     /*
     flex-direction: column;
     */

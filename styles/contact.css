@@ -17,6 +17,7 @@
 }
 
 #contactTxt h1{
+    z-index: 10;
     margin-top: 200px;
     align-self: center;
     color: aqua;
@@ -36,4 +37,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media all and (max-width: 768px) {
+    #img img {
+        width: 300px;
+    }
+
+    #contactTxt h1{
+        z-index: 10;
+        font-size: 70px;
+    }
+}
+
 
