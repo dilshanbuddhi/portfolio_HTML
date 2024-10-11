@@ -1,4 +1,4 @@
-#contactSt div{
+#main_text{
     display: grid;
     grid-template-columns: 3fr 1fr;
     /*display: flex;
@@ -7,11 +7,11 @@
 }
 
 #contactTxt{
-    padding-left: 140px;
+    padding-left: 150px;
 }
 
 #socialList{
-    margin-left: 140px;
+    margin-left: 150px;
 }
 #contactSt div div{
     display: flex;
@@ -30,12 +30,14 @@
     /*
     align-self: center;
     */
+    font-family: "Sofia", sans-serif;
     color: aqua;
     font-size: 100px;
 }
 
 
 #contactTxt h2{
+    margin-left: 20px;
     z-index: 2;
     margin-top: -30px;
     margin-bottom: 100px;
@@ -64,7 +66,7 @@
 .social-link {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px;
 }
 
@@ -74,19 +76,19 @@
 }
 
 .social-link.instagram i {
-    color: #E4405F; /* Instagram color */
+    color: #E4405F;
 }
 
 .social-link.facebook i {
-    color: #1877F2; /* Facebook color */
+    color: #1877F2;
 }
 
 .social-link.twitter i {
-    color: #1DA1F2; /* Twitter color */
+    color: #1DA1F2;
 }
 
 .social-link.linkedin i {
-    color: #0A66C2; /* LinkedIn color */
+    color: #0A66C2;
 }
 
 /*.social-link:hover {
@@ -103,7 +105,86 @@
 #socialList ul li  {
     display: inline;
 }
+#send_email h2{
+    margin-top: 100px;
+    font-size: 50px;
+    text-shadow: #8B8787;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+}
 
+
+
+/* General Styles */
+
+
+/* Form Container */
+#send_email {
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 255, 207, 0.3);
+    position: relative;
+}
+
+
+label {
+    display: block;
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #181818;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    color: #fff;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="text"]:focus  ,textarea:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+/* Button Styles */
+#mailbtn {
+    width: 150px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    background-color: #525556;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #239f99;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #008c9e;
+}
+
+/* Form Layout */
+#send_email div {
+    display: flex;
+    flex-direction: column;
+}
+
+#send_email div > div {
+    margin-bottom: 15px;
+}
 
 
 
@@ -131,7 +212,7 @@
 
     .social-container {
       
-        width: 283px;
+        width: 320px;
         padding: 8px;
         margin-top: -50px;
     }
