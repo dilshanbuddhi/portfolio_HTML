@@ -172,7 +172,7 @@ input[type="text"]:focus  ,textarea:focus {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+#mailbtn:hover {
     background-color: #008c9e;
 }
 
