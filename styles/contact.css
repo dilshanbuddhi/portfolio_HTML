@@ -328,6 +328,67 @@ input[type="text"]:focus  ,textarea:focus {
 
 }
 
+    @media all and (max-width: 430px) {
+        #contactTxt {
+            padding-left: 0;
+        }
+
+        #contactTxt h1 {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+
+        #contactTxt h2 {
+            /*
+            margin: 0px 10px 100px 10px;
+            */
+
+            font-size: 18px;
+            padding: 8px;
+            max-width: 250px;
+        }
+
+        #textCon{
+            padding:20px
+        }
+        #socialList {
+            margin-left: 0;
+        }
+
+        .social-container {
+            max-width: 200px;
+            min-width: 150px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        #socialList {
+            margin-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+            display: flex;
+            justify-content: center;
+        }
+        #contactTxt h2{
+            padding:10px;
+        }
+
+        .social-link {
+            font-size: 16px;
+        }
+        #socialList ul li  {
+            display: flex;
+        }
+        #socialList ul  {
+            margin: 0;
+        }
+
+        #socialList ul:nth-child(1)  {
+            margin-left: 13px;
+        }
+
+    }
+
+
 
 
 
