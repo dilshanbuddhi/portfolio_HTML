@@ -30,7 +30,7 @@
     box-shadow: 0px 0px 30px rgba(75, 75, 75, 0.38);
     border-top: 3px solid rgba(129, 136, 138, 0.18);
     padding-right: 50px;
-    margin-top: -30px; /* Remove any extra margin that might push it down */
+    margin-top: -30px; 
 }
 
 #mainfoot > h3 {
