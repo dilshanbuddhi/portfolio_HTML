@@ -306,53 +306,78 @@
 
 @media all and (max-width: 768px) {
 
-    #hero{
-        overflow: hidden;
-    }
-    #hero>section:first-child>div>h1{
-        margin-left: 147px;
-        font-size: 80px;
-        margin-top: -133px;
+    #welcome{
+        margin-top: 104px;
+        padding-left: 50px;
     }
 
-    #hero>section:first-child>div>h2{
-        font-size: 40px;
-        margin-top: -55px;
-        margin-left: 95px;
+
+
+
+    .social-icons li:nth-child(1){
+        color: aqua;
+        font-weight: bold;
+    }
+
+    .social-icons li {
+        width: 50px;
+        margin: 10px 0;
 
     }
 
-    #hero>section:first-child>div>h3{
-        margin-top: 115px;
-        margin-left: 56px;
-        font-size: 40px;
-    }
-
-    #hero {
-
-        grid-template-columns: 3fr 1fr;
-    }
-    #hero>section:nth-child(2)>img {
-        width: 400px;
-        height: 546px;
-        margin-top: 50px;
-        margin-left: -55px;
+    .social-icons a {
+        color: #fff;
+        font-size: 29px;
+        transition: 1s;
     }
 
     .social-icons {
         list-style: none;
         display: flex;
         flex-direction: row;
-        margin-top: -85px;
-        margin-left: 20px;
+        margin-top: -98px;
+        margin-left: -45px;
     }
 
     .social-icons li:nth-child(1){
         color: aqua;
         font-weight: bold;
-        font-size: 100px;
-        margin-top: -43px;
+        font-size: 69px;
+        margin-top: -25px;
+        margin-left: 24px;    }
+    #hero>section:first-child>div>h1 {
+        font-size: 60px;
     }
+    #hero>section:first-child>div>h2 {
+        margin-bottom: 10px;
+        font-size: 45px;
+    }
+    .loader {
+        font-size: 35px;
+        height: 45px;
+    }
+
+    .words {
+        height: 45px;
+    }
+
+    #hero>section:nth-child(2)>img {
+        width: 210px;
+        margin-top: 54px;
+        margin-right: 31px;
+    }
+    #welcome div h3{
+        font-size: 18px;
+        color: #aba6a6;
+        letter-spacing: 5px;
+    }
+    .herobtn{
+        padding: 9px 10px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
 }
 
 
