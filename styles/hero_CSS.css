@@ -180,6 +180,8 @@
 }
 
 
+
+
 @media all and (max-width: 1350px) {
 
     #hero {
@@ -223,6 +225,84 @@
     }
 
     }
+
+@media all and (max-width: 1000px) {
+    #welcome{
+        margin-top: 104px;
+
+    }
+
+    #hero>section:nth-child(2)>img {
+        width: 300px;
+        margin-top: 60px;
+        margin-right: 50px;
+    }
+
+    .social-icons li:nth-child(1){
+        color: aqua;
+        font-weight: bold;
+    }
+
+    .social-icons li {
+        width: 50px;
+        margin: 10px 0;
+
+    }
+
+    .social-icons a {
+        color: #fff;
+        font-size: 29px;
+        transition: 1s;
+    }
+
+    .social-icons {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: -100px;
+        margin-left: -14px;
+    }
+
+    .social-icons li:nth-child(1){
+        color: aqua;
+        font-weight: bold;
+        font-size: 69px;
+        margin-top: -25px;
+    }
+    #hero>section:first-child>div>h1 {
+        font-size: 70px;
+    }
+    #hero>section:first-child>div>h2 {
+        font-size: 50px;
+    }
+    .loader {
+        font-size: 45px;
+        height: 50px;
+    }
+
+    .words {
+        height: 50px;
+    }
+
+    #hero>section:nth-child(2)>img {
+        width: 250px;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+    #welcome div h3{
+        font-size: 20px;
+        color: #aba6a6;
+        letter-spacing: 7px;
+    }
+    .herobtn{
+        padding: 12px 13px;
+        font-size: 17px;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+    }
+
+}
+
 
 @media all and (max-width: 768px) {
 
