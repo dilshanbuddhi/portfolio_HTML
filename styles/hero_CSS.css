@@ -385,25 +385,35 @@
 
 @media all and (max-width: 435px) {
     #hero {
-        padding: 5px;
         width: 100%;
-        margin-top: 100px;
-    display: flex;
+        display: flex;
         flex-direction: column;
     }
+    #welcome{
+        padding-left: 30px;
+        margin-top: 5px;
+    }
+    #hero>section:nth-child(2)>img {
+        margin-top: -75px;
+        margin-left: 136px;
+    }
 
-    #welcome>div {
+    .social-icons {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: -295px;
+        margin-left: 0px;
+    }
+    .social-icons li:nth-child(1){
+        margin-left: 0;
+    }
+   /* #welcome>div {
         justify-content: space-between;
         margin-top: 121px;
         font-size: 20px;
     }
-    #hero>section:nth-child(2)>img {
-        /*
-        padding: 40px;
-        */
-        margin-left: 70px;
-        margin-top: -400px;
-    }
+
     #hero>section:first-child>div>h1{
         font-size: 48px;
         margin-left: -170px;
@@ -421,12 +431,7 @@
         margin-left: -150px;
     }
 
-    .social-icons {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        margin-top: -340px;
-    }
+    */
 
 
 }
