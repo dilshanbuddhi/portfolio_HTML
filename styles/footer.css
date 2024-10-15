@@ -15,7 +15,9 @@
     width: 75px;
     margin-left: 38px;
 }
-
+footer{
+    overflow-x: hidden;
+}
 #mainfoot {
     background: #181818;
 
@@ -30,7 +32,7 @@
     box-shadow: 0px 0px 30px rgba(75, 75, 75, 0.38);
     border-top: 3px solid rgba(129, 136, 138, 0.18);
     padding-right: 50px;
-    margin-top: -30px; 
+    margin-top: -30px;
 }
 
 #mainfoot > h3 {
