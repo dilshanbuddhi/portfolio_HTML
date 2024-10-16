@@ -8,7 +8,7 @@
     margin-top: -35px; /* Adjust to move the circle upwards */
     border-top: 3px solid rgba(146, 153, 155, 0.18);
     z-index: 10; /* Ensure it's above the #mainfoot */
-    position: relative; /* Positioning to apply z-index */
+    position: relative;
 }
 
 #footercircle img{
