@@ -67,6 +67,10 @@ footer{
     text-decoration: none;
 }
 
+
+
+
+
 @media all and (max-width: 768px) {
     #mainfoot > div > ul > li > a {
         font-size: 18px;

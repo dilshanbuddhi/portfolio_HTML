@@ -21,6 +21,9 @@ header>h3{
 
     font-style: italic;
 }
+#icon {
+    display: none;
+}
 
 .nav{
     padding-right: 150px;
@@ -76,10 +79,65 @@ header>div{
     border-radius: 50px;
 
 }
+@media all and (max-width: 940px) {
+    .menu {
+        min-width: 20vw;
+        background-color: white;
+        flex-direction: column;
+        position: absolute;
+        top: 12.5px;
+        right: -250px;
+        transition: 0.5s;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .menu-transition {
+        right: 67.5px;
+    }
+
+    .menu li {
+        width: 100%;
+        margin: 0px !important;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .menu li a {
+        gap: 10px;
+        color: black;
+        padding: 10px 25px 10px 25px;
+        justify-content: flex-start;
+    }
+
+    .collapse-icon {
+        display: block;
+        font-size: 1.3em;
+        color: white;
+    }
+}
+    @media all and (max-width: 375px) {
+        .site-name {
+            font-size: 2em;
+        }
+    }
+
+    @media all and (max-width: 320px) {
+        .site-name {
+            font-size: 1.5em;
+        }
+    }
+
 
 
 @media all and (max-width: 768px) {
-
+    #icon {
+        margin-left: 120px;
+        margin-top: -28px;
+        align-self: center;
+        font-size: 26px;
+        display: block;    }
     header>h3{
         margin-top: 7px;
         margin-left: 30px;
@@ -90,17 +148,8 @@ header>div{
         height: 30px;
         font-size: 15px;
     }
-    header>nav>ul>li {
-
-        padding: 0px 10px;
-        display: inline;
-
-    }
-
-    header>nav>ul>li>a {
-        font-weight: lighter;
-        font-size: 18px;
-
+    header>nav>ul {
+        display: none;
     }
 
 }
@@ -109,16 +158,20 @@ header>div{
 
 
     header>h3{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    #icon {
+        margin-left: 120px;
+        margin-top: -25px;
+        align-self: center;
+        font-size: 20px;
+        display: block;
     }
 
-    .nav{
-        visibility: hidden;
-        display: none;
-    }
     #button>button{
-       padding-right: 15px;
+        padding-right: 15px;
     }
+
 
 }
 
