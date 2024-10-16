@@ -9,6 +9,9 @@
 #contactTxt{
     padding-left: 150px;
 }
+#contactSt{
+    overflow-x: hidden;
+}
 
 #socialList{
     margin-left: 150px;

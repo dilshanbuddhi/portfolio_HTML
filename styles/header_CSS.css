@@ -79,7 +79,22 @@ header>div{
     border-radius: 50px;
 
 }
-@media all and (max-width: 940px) {
+
+    @media all and (max-width: 375px) {
+        .site-name {
+            font-size: 2em;
+        }
+    }
+
+    @media all and (max-width: 320px) {
+        .site-name {
+            font-size: 1.5em;
+        }
+    }
+
+
+
+@media all and (max-width: 768px) {
     .menu {
         min-width: 20vw;
         background-color: white;
@@ -116,22 +131,6 @@ header>div{
         font-size: 1.3em;
         color: white;
     }
-}
-    @media all and (max-width: 375px) {
-        .site-name {
-            font-size: 2em;
-        }
-    }
-
-    @media all and (max-width: 320px) {
-        .site-name {
-            font-size: 1.5em;
-        }
-    }
-
-
-
-@media all and (max-width: 768px) {
     #icon {
         margin-left: 120px;
         margin-top: -28px;
@@ -173,5 +172,7 @@ header>div{
     }
 
 }
+
+
 
 

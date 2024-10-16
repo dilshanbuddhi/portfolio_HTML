@@ -1,3 +1,4 @@
+/*
 #footercircle {
     width: 150px;
     height: 75px;
@@ -5,9 +6,9 @@
     border-radius: 100px 100px 0 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -35px; /* Adjust to move the circle upwards */
+    margin-top: -35px; !* Adjust to move the circle upwards *!
     border-top: 3px solid rgba(146, 153, 155, 0.18);
-    z-index: 10; /* Ensure it's above the #mainfoot */
+    z-index: 10; !* Ensure it's above the #mainfoot *!
     position: relative;
 }
 
@@ -21,7 +22,7 @@ footer{
 #mainfoot {
     background: #181818;
 
-    z-index: 5; /* Lower than #footercircle to be under it */
+    z-index: 5; !* Lower than #footercircle to be under it *!
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -85,3 +86,4 @@ footer{
         display: none;
     }
 }
+*/

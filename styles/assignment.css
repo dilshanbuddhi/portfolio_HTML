@@ -92,19 +92,21 @@
     justify-content: space-evenly;
 }
 
-@media all and (max-width: 435px) {
-    #assignemt_List h1{
-        font-size: 50px;
-    }
-}
 
 @media all and (max-width: 768px) {
     #asgList {
         padding: 50px;
     }
     #assignemt_List h1{
-        font-size: 30px;
+        font-size: 80px;
     }
 
+}
+
+
+@media all and (max-width: 435px) {
+    #assignemt_List h1{
+        font-size: 50px;
+    }
 }
 

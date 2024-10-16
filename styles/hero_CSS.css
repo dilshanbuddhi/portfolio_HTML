@@ -2,7 +2,7 @@
 
 
 #hero {
-    overflow: hidden;
+    overflow-x: hidden;
     margin-top: 75px;
 
     display: grid;
@@ -411,6 +411,12 @@
 
 
 }
+@media all and (max-width: 380px){
+    #hero>section:nth-child(2)>img {
+        margin-left: 120px;
+    }
+}
+
 
 
 
