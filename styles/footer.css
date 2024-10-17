@@ -101,6 +101,7 @@ footer {
 }
 
 #footer-bottom p {
+    padding: 0px 50px 0px 50px;
     margin-bottom: 20px;
     font-size: 14px;
 }
@@ -115,3 +116,38 @@ footer {
 .social-icons a:hover {
     color: #00aaff;
 }
+
+@media all and (max-width: 768px) {
+    #footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    #branding p{
+        padding: 30px;
+    }
+    #branding,
+    #contact-info {
+        max-width: 100%;
+        min-width: auto;
+        text-align: center;
+    }
+
+    #footer-nav ul {
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    #footer-nav ul li {
+        display: block;
+        margin: 10px 0;
+        
+    }
+
+    .contact-btn {
+        margin-top: 20px;
+    }
+}
+
