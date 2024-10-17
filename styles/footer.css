@@ -1,89 +1,109 @@
-/*
-#footercircle {
-    width: 150px;
-    height: 75px;
-    background: #181818;
-    border-radius: 100px 100px 0 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -35px; !* Adjust to move the circle upwards *!
-    border-top: 3px solid rgba(146, 153, 155, 0.18);
-    z-index: 10; !* Ensure it's above the #mainfoot *!
-    position: relative;
+footer {
+    background-color: #2a2a2e;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
 }
 
-#footercircle img{
-    width: 75px;
-    margin-left: 38px;
-}
-footer{
-    overflow-x: hidden;
-}
-#mainfoot {
-    background: #181818;
-
-    z-index: 5; !* Lower than #footercircle to be under it *!
-    overflow: hidden;
+#footer-content {
     display: flex;
     justify-content: space-between;
-    color: white;
-    width: 100%;
-    height: 50px;
-    backdrop-filter: blur(18px);
-    box-shadow: 0px 0px 30px rgba(75, 75, 75, 0.38);
-    border-top: 3px solid rgba(129, 136, 138, 0.18);
-    padding-right: 50px;
-    margin-top: -30px;
+    padding: 0 40px;
 }
 
-#mainfoot > h3 {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 15px;
-    top: 0;
-    display: flex;
-}
-.footernav{
-    padding-right: 50px;
-    margin: 15px 0;
-    position: absolute;
-    top: 0;
-    right: 0;
+#branding {
+    max-width: 500px;
+    min-width: 400px;
 }
 
-#mainfoot > div > ul {
+#branding h1{
+    letter-spacing: 3px;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    color: aqua;
+
+}
+#branding h1 span{
+    font-family: "Sofia", sans-serif;
+    font-size: 70px;
+    color: black;
+    margin: 0;
+}
+
+#branding p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+#contact-info {
+    text-align: right;
+}
+
+#contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    background: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#footer-nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer-nav ul {
     list-style: none;
-    margin: 0px;
+    padding: 0;
 }
 
-#mainfoot > div > ul > li {
-    padding: 0px 20px;
+#footer-nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
-#mainfoot > div > ul > li > a {
-    font-weight: lighter;
-    font-size: 20px;
-    color: azure;
+#footer-nav ul li a {
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
-
-
-
-
-@media all and (max-width: 768px) {
-    #mainfoot > div > ul > li > a {
-        font-size: 18px;
-    }
-
-    #mainfoot > div > ul > li {
-        padding: 0px 10px;
-    }
-
-    #mainfoot div ul {
-        visibility: hidden;
-        display: none;
-    }
+#footer-nav ul li a:hover {
+    color: #00aaff;
 }
-*/
+
+#footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+#footer-bottom p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footericons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #00aaff;
+}
