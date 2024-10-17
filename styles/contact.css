@@ -28,6 +28,8 @@
 }
 
 #contactTxt h1{
+    text-shadow: 1px 1px 1px #000000, 0 0 1em #645f60, 0 0 0.1em #ffffff;
+
     z-index: 10;
     margin-top: 170px;
     /*
@@ -112,9 +114,10 @@
     display: inline;
 }
 #send_email h2{
+    text-shadow: 1px 1px 2px #000000, 0 0 1em #ffffff, 0 0 0.2em #ff007b;
+
     margin-top: 50px;
     font-size: 50px;
-    text-shadow: #8B8787;
     font-weight: lighter;
     font-style: normal;
     text-align: start;
@@ -387,6 +390,10 @@ input[type="text"]:focus  ,textarea:focus {
 
         #socialList ul:nth-child(1)  {
             margin-left: 13px;
+        }
+        #send_email h2{
+            font-size: 30px;
+            font-family: "Sofia", sans-serif;
         }
 
     }

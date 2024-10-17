@@ -88,5 +88,30 @@
 
     }
 }
+@media all and (max-width: 430px){
+    #project>div>h2{
+        margin-top: 60px;
+        text-align: center;
+        color: aqua;
+        font-size: 44px;
+
+    }
+
+    #project>div>h3{
+        text-align: center;
+        font-size: 15px;
+        margin-top: -55px;
+        color: #767a7a;
+        padding: 30px;
+
+    }
+    #project>div>h3 a {
+        text-decoration: none;
+        text-align: center;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+
 
 
