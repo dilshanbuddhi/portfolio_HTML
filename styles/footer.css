@@ -24,6 +24,7 @@ footer {
 
 }
 #branding h1 span{
+    text-shadow: 1px 1px 2px red, 0 0 1em #ffffff, 0 0 0.2em #00ffd0;
     font-family: "Sofia", sans-serif;
     font-size: 70px;
     color: black;
@@ -35,13 +36,20 @@ footer {
     color: #ccc;
     line-height: 1.8;
 }
+#branding p span{
+    font-size: 16px;
+    color: aqua;
+}
 
 #contact-info {
     text-align: right;
 }
 
 #contact-info h3 {
-    font-size: 24px;
+    font-family: "Sofia", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
