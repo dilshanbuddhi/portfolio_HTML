@@ -49,7 +49,9 @@
     </label>
 
     <h1 class="logo">D</h1>
-    <button class="button" id="hybtn"> Say Hi</button>
+    <a href="#contact">
+        <button class="button" id="hybtn"> Say Hi</button>
+    </a>
 
     <ul>
         <li><a href="#hero">Home+</a></li>
@@ -553,7 +555,11 @@
 </footer>-->
 
 <script>
-
+    document.querySelectorAll('nav ul li a').forEach(link => {
+        link.addEventListener('click', () => {
+            document.getElementById('check').checked = false;
+        });
+    });
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
