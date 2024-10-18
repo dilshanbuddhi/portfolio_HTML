@@ -103,7 +103,7 @@
 .word {
     display: block;
     height: 100px;
-    background: -webkit-linear-gradient(#863030, #ffffff);
+    background: -webkit-linear-gradient(#1538c7, #c51111);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: upAndDownBounce 4s  infinite;
@@ -113,25 +113,25 @@
 
 @keyframes upAndDownBounce {
     0% {
-        transform: translateY(0); /* Start at original position */
+        transform: translateY(0);
     }
     20% {
-        transform: translateY(-105%); /* Move slightly higher than normal */
+        transform: translateY(-105%);
     }
     25% {
-        transform: translateY(-100%); /* Correct the position to settle */
+        transform: translateY(-100%);
     }
     50% {
-        transform: translateY(-100%); /* Hold the position */
+        transform: translateY(-100%);
     }
     70% {
-        transform: translateY(5%); /* Overshoot a bit when going down */
+        transform: translateY(5%);
     }
     75% {
-        transform: translateY(0); /* Settle back to the original position */
+        transform: translateY(0);
     }
     100% {
-        transform: translateY(0); /* Return to the starting position */
+        transform: translateY(0);
     }
 }
 
@@ -140,6 +140,7 @@
     width: 300px;
     margin-top: 30px;
     margin-right: 50px;
+
 }
 
 #hero>section:nth-child(3)>ol>li>i{
