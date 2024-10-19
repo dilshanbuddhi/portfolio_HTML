@@ -1,4 +1,3 @@
-/*
 #asgList {
     padding: 100px;
 }
@@ -36,7 +35,7 @@
     box-shadow: 0 6px 8px rgba(0, 255, 229, 0.15);
     transform: translateY(-2px);
 }
-!*#assignemt_List div div{
+/*#assignemt_List div div{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -48,15 +47,17 @@
     max-height: 400px;
     margin: 50px;
     align-items: center;
-}*!
+}*/
 
 #preview{
     margin-top: 70px;
 }
 .ka{
- display: flex;
+    display: flex;
     text-align: center;
-
+    /*
+    flex-direction: column;
+    */
     padding: 20px;
     box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
     border-radius: 30px;
@@ -65,30 +66,7 @@
     min-height: 300px;
     max-height: 600px;
     margin: 20px;
-    transition:  0.3s ease;
-
 }
-
-.ka:hover{
-    background-color: #100f0f;
-    color: white;
-    box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
-    transform: translateY(-3px);
-}
-
-!*#asgList>div{
-
-    transition:  0.3s ease;
-
-}*!
-
-#asgList>div:hover{
-    background-color: #100f0f;
-    color: white;
-    box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
-    transform: translateY(-3px);
-}
-
 
 #buttondiv{
     display: flex;
@@ -96,18 +74,18 @@
     flex-direction: column;
 }
 
- #asgList div p{
+#asgList div p{
     text-align: center;
-     box-shadow: 0px 1px 0px 0px rgb(95, 96, 96);
-     border-radius: 20px;
-     padding: 10px;
- }
+    box-shadow: 0px 1px 0px 0px rgb(95, 96, 96);
+    border-radius: 20px;
+    padding: 10px;
+}
 
- #asgList div a i {
- padding: 15px;
-     margin-left: 150px;
-     color: white;
-     font-size: 30px;}
+#asgList div a i {
+    padding: 15px;
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;}
 
 #assignemt_List div {
     display: flex;
@@ -132,5 +110,3 @@
         font-size: 50px;
     }
 }
-
-*/

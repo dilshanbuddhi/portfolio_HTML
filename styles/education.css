@@ -54,19 +54,11 @@
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    transition:  all 0.3s ease;
-
-}
-
-.skillshadow:hover{
-    background-color: #100f0f;
-    color: white;
-    box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
-    transform: translateY(-3px);
 }
 
 #first_row {
-
+    padding-right: 25px;
+    padding-left: 25px;
     margin-top: 140px;
 }
 #first_row div:nth-child(2){
@@ -74,7 +66,8 @@
 }
 #second_row{
     margin-top: 350px;
-
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #second_row div:nth-child(2){
     margin-top: 270px;
@@ -93,9 +86,9 @@
         flex-wrap: wrap;
         margin-top: -100px;
     }
- .skillshadow{
-     margin-bottom: 60px;
- }
+    .skillshadow{
+        margin-bottom: 60px;
+    }
 
     #first_row {
         flex-basis: 20px;
@@ -119,29 +112,4 @@
     #education h2 {
         font-size: 50px;
     }
-    #ijse ul li{
-        font-size: 14px;
-    }
-
-    #esoft li{
-        font-size: 16px;
-    }
-
-    .skillshadow{
-        box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
-        padding: 10px;
-        border-radius: 30px;
-        height: 300px;
-        width: 163px;
-        margin-left: auto;
-        margin-right: auto;
-        transition:  all 0.3s ease;
-
-    }
-
-    #education section{
-        padding: 10px;
-
-    }
 }
-
