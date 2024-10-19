@@ -1,3 +1,4 @@
+/*
 #asgList {
     padding: 100px;
 }
@@ -35,7 +36,7 @@
     box-shadow: 0 6px 8px rgba(0, 255, 229, 0.15);
     transform: translateY(-2px);
 }
-/*#assignemt_List div div{
+!*#assignemt_List div div{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -47,26 +48,13 @@
     max-height: 400px;
     margin: 50px;
     align-items: center;
-}*/
+}*!
 
 #preview{
     margin-top: 70px;
 }
-/*.ka{
-
-    transition:  0.3s ease;
-
-}
-
-.ka:hover{
-    background-color: #100f0f;
-    color: white;
-    box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
-    transform: translateY(-3px);
-}*/
-
-#asgList>div{
-    display: flex;
+.ka{
+ display: flex;
     text-align: center;
 
     padding: 20px;
@@ -80,6 +68,19 @@
     transition:  0.3s ease;
 
 }
+
+.ka:hover{
+    background-color: #100f0f;
+    color: white;
+    box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
+    transform: translateY(-3px);
+}
+
+!*#asgList>div{
+
+    transition:  0.3s ease;
+
+}*!
 
 #asgList>div:hover{
     background-color: #100f0f;
@@ -132,3 +133,4 @@
     }
 }
 
+*/
