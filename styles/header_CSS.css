@@ -136,6 +136,21 @@ nav ul li a {
         left: -30px;
     }
 }
+@media (max-width: 435px) {
+
+    nav button{
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        position: absolute;
+        right: 30px;
+        font-size: 25px;
+        top: -4px
+    }
+}
+
 
 
 
