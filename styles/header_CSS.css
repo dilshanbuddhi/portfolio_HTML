@@ -1,6 +1,8 @@
+/*
 
 
 nav {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -120,7 +122,7 @@ nav ul li a {
         transition: all 0.5s ease;
         flex-direction: column;
         justify-content: center;
-        z-index: 99; /* Ensuring ul is above other elements */
+        z-index: 99; !* Ensuring ul is above other elements *!
     }
 
     nav ul li {
@@ -142,7 +144,7 @@ nav ul li a {
 
 
 
-/*
+!*
 header{
     overflow: hidden;
     z-index: 5;
@@ -319,4 +321,5 @@ header>div{
 
 
 
+*!
 */
