@@ -138,5 +138,10 @@
         transition:  all 0.3s ease;
 
     }
+
+    #education section{
+        padding: 10px;
+
+    }
 }
 
