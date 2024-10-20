@@ -1,3 +1,7 @@
+#assignment{
+    width: 100%;
+    overflow-x: hidden;
+}
 #education>h2{
     text-align: center;
     color: aqua;
