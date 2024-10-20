@@ -38,9 +38,14 @@
 }
 
 #about>p{
+    max-width: 900px;
+    min-width: 120px;
+    max-height: 500px;
+    min-height: 300px;
     padding: 100px;
     text-align: center;
     font-size: 36px;
+
 
 }
 
@@ -78,7 +83,7 @@ margin-right: auto;
     min-width: 180px;
     margin-left: auto;
     margin-right: auto;
-    transition: all 1s ease; /* Define transition once, with 1s duration */
+    transition: all 1s ease;
 }
 
 .bigshadow:hover {
@@ -86,6 +91,9 @@ margin-right: auto;
     box-shadow: 0px 8px 15px 0px rgb(26, 84, 84);
     transform: translateY(-3px);
 }
+
+
+
 
 
 @media all and (max-width: 768px) {
@@ -128,7 +136,8 @@ margin-right: auto;
 }
 @media all and (max-width: 435px) {
     #about>p{
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
 
     }
 }

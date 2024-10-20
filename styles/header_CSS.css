@@ -149,6 +149,9 @@ nav ul li a {
         font-size: 25px;
         top: -4px
     }
+    .logo{
+        margin-left: -15px;
+    }
 }
 
 
