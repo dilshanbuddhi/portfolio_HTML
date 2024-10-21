@@ -96,11 +96,10 @@
    margin-left: auto;
    margin-right: auto;
    position: relative;
-   overflow: hidden; /* Ensures the background expansion doesn't go outside */
-   color: white; /* Text color */
+   overflow: hidden;
+   color: white;
 }
 
-/* The background div for animation */
 .shadow-bg {
    position: absolute;
    top: -50px;
@@ -138,6 +137,7 @@
    #skil_list{
       justify-content: center;
    }
+
    #skill>section:first-child>div>h2{
       font-size: 70px;
    }
